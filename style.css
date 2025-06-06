@@ -200,14 +200,20 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/p.jpg);
+	background-image: url('./img/p.jpg');
 	background-size: cover;
-	background-position: center center;
+	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;
 	z-index: 1;
-	min-height: 100vh; /* Make sure it fills viewport height */
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start; /* Adjust based on your content alignment */
+	padding: 0 50px;
 }
+
 
 
 #hero::after {
