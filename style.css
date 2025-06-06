@@ -262,6 +262,12 @@ p {
 	animation-delay: 2.5s;
 }
 
+#hero h1:nth-of-type(2) {
+  font-size: 3rem;
+}
+#hero h1:nth-of-type(3) {
+  font-size: 2.5rem;
+}
 /* End Hero Section */
 
 /* Services Section */
