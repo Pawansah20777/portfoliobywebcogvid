@@ -202,9 +202,11 @@ p {
 #hero {
 	background-image: url(./img/p.jpg);
 	background-size: cover;
-	background-position: top center;
+	background-position: center center;
+	background-repeat: no-repeat;
 	position: relative;
 	z-index: 1;
+	min-height: 100vh; /* Make sure it fills viewport height */
 }
 
 
